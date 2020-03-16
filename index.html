@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>entrance exam</title>
-    <link rel="stylesheet" href="css/style-home.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>entrance exam</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style-home.css">
 </head>
+
 <body>
+  <header>
+    <h1>To do list</h1>
+  </header>
+  <main>
 
+    <div id="container">
+  
+      <form id="myTasks">
+        <label id="currentDate"></label>
+        <br>
+        <label for="yourTask">What do you want to get done today?</label>
+        <br>
+        <input id="usertask" type="text" placeholder="studying ,, reading ...." required>
+        <br>
+        <label for="dateOftask">Date:</label>
+        <br>
+        <input id="userdate" type="date">
+        <br>
+        <input id="sub" type="submit">
+      </form>
+      <section id="resultOftasks"></section>
+    </div>
+  </main>
 
-
-
-
-
-
-
-    
-  <script src="js/q1.js"></script> 
-  <script src="js/q2.js"></script> 
-  <script src="js/q3.js"></script> 
+  <script src="js/q1.js"></script>
+  <script src="js/q2.js"></script>
+  <script src="js/q3.js"></script>
 </body>
+
 </html>
