@@ -1,0 +1,77 @@
+body{
+    padding: 0px;
+}
+header{
+    background-color: #6d8adbc7;
+    padding: 15px;
+    margin: 0px auto;
+}
+header h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+body{
+    background-color:#eee ;
+    overflow: hidden;
+}
+#container{
+    width: 80%;
+    margin: 30px auto;
+    
+    overflow: hidden;
+}
+
+#myTasks{
+    float: left;
+    width: 40%;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color:#dae4ff ;
+    
+}
+ol{
+list-style: decimal;
+list-style-position: inside;
+}
+label,input{
+    margin: 15px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#resultOftasks{
+    float: right;
+    width: 40%;
+    margin:0% 5% ;
+   padding: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+#currentDate{
+    font-size: 30px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+   
+}
+p{
+    display: inline-block;
+    margin: 20px;
+}
+ol li div{
+    color:#6d8adbc7 ;
+    font-size: 16px;
+}
+#sub{
+    float: right;
+    background-color: #6d8adbc7;
+    padding: 5px;
+}
+/* #6d8adbc7" , "#dae4ff" and "#eee". */
